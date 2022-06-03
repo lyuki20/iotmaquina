@@ -1,8 +1,8 @@
 #include <Servo.h>
 Servo servo;
-const int pinoBotao = 4; 
-const int pinoLed = 15; //PINO DIGITAL UTILIZADO PELO LED  
-const int pinoSensor = 13; //PINO DIGITAL UTILIZADO PELO SENSOR
+const int pinoBotao = 4; // Pinos equivalentes na placa WeMOS
+const int pinoLed = 15; // Pinos equivalentes na placa WeMOS
+const int pinoSensor = 13; // Pinos equivalentes na placa WeMOS
 
 int estadoBotao = 0;
 int pos = 0;
